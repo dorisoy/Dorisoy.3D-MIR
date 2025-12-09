@@ -1,7 +1,7 @@
 
 # Sinol.3D-MIR（口腔医学影像三维重建软件）
 
-Sinol.3D-MIR 是一个口腔医学影像三维重建软件，基于CT(CBCT)或MRI设备采集的二维DICOM文件序列生成三维医学影像重建，支持多平台（GNU Linux、Windows和MacOS），并提供多种工具：
+Sinol.3D-MIR 是一个口腔医学影像三维重建软件，基于CT(CBCT)或MRI设备采集的二维DICOM文件序列生成三维医学影像重建，支持多平台（GNU Linux、Windows和MacOS），并提供多种辅助工具。
 
 ## 主要功能
 
@@ -26,6 +26,10 @@ Sinol.3D-MIR 是一个口腔医学影像三维重建软件，基于CT(CBCT)或MR
 
 ## 屏幕
 
+<img src="https://github.com/dorisoy/Dorisoy.3D-MIR/blob/main/Screen/1.png?raw=true"/>
+<img src="https://github.com/dorisoy/Dorisoy.3D-MIR/blob/main/Screen/2.png?raw=true"/>
+<img src="https://github.com/dorisoy/Dorisoy.3D-MIR/blob/main/Screen/3.png?raw=true"/>
+<img src="https://github.com/dorisoy/Dorisoy.3D-MIR/blob/main/Screen/4.png?raw=true"/>
 
 
 ## 系统要求
@@ -104,20 +108,12 @@ python app.py -i <dicom_folder_path>
 python app.py <project_file_path>
 ```
 
-## 问题排查
+## 许可证
 
-### h5py 模块缺失
+本项目为专有软件，未经授权禁止使用、复制或分发。
 
-如果在导出 HDF5 格式文件时出现 `ModuleNotFoundError: No module named 'h5py'` 错误，请执行以下命令安装：
+---
 
-```powershell
-.\invenv\Scripts\pip.exe install h5py==3.11.0
-```
+## 联系方式
 
-### 其他缺失模块
-
-如果缺失其他模块，请重新安装完整的依赖列表：
-
-```powershell
-.\invenv\Scripts\pip.exe install -r requirements.txt
-```
+<img src="https://github.com/dorisoy/Dorisoy.DICOM/blob/main/Screen/wx.jpg?raw=true"/>
