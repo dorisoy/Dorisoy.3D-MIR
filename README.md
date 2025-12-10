@@ -1,7 +1,7 @@
 
-# Sinol.3D-MIR（口腔医学影像三维重建软件）
+# Sinol.3D-MIR
 
-Sinol.3D-MIR 是一个口腔医学影像三维重建软件，基于CT(CBCT)或MRI设备采集的二维DICOM文件序列生成三维医学影像重建，支持多平台（GNU Linux、Windows和MacOS），并提供多种辅助工具。
+Sinol.3D-MIR 一款口腔医学影像三维重建软件，基于CT(CBCT)或MRI设备采集的二维DICOM文件序列生成三维医学影像重建，支持多平台（GNU Linux、Windows和MacOS），并提供多种辅助工具。
 
 ## 主要功能
 
